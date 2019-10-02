@@ -1,6 +1,6 @@
 # cpsc462-bobapp-project
 
-# Written by: \
+# Written by: 
 Kailie Chang \
 Victoria Tran \
 Andrew Lopez 
