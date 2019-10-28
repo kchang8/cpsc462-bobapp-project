@@ -25,7 +25,14 @@ void MainWindow::on_adminLogButton_clicked()
 {
    //**might add verification of inputs later**
 
-   hide(); //hides first windown when button is clicked
-   adminMenu = new AdminMenu(this); //constructs the second window
-   adminMenu->show(); //shows the second window
+   hide(); //hides first window when button is clicked
+   adminMenu = new AdminMenu(this); //constructs the admin menu window
+   adminMenu->show(); //shows the  window
+}
+
+void MainWindow::on_commandLinkButton_2_clicked()
+{
+    hide(); //hides first window when button is clicked
+    newAdmin = new NewAdminWin(this); //constructs the new admin window
+    newAdmin->show(); //shows the window
 }

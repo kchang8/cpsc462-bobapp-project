@@ -18,15 +18,18 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     adminmenu.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    newadminwin.cpp
 
 HEADERS += \
     adminmenu.h \
-    mainwindow.h
+    mainwindow.h \
+    newadminwin.h
 
 FORMS += \
     adminmenu.ui \
-    mainwindow.ui
+    mainwindow.ui \
+    newadminwin.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

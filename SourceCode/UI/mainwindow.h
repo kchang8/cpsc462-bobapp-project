@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include "adminmenu.h"
+#include "newadminwin.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -19,8 +20,11 @@ public:
 private slots:
     void on_adminLogButton_clicked();
 
+    void on_commandLinkButton_2_clicked();
+
 private:
     Ui::MainWindow *ui;
     AdminMenu *adminMenu;
+    NewAdminWin *newAdmin;
 };
 #endif // MAINWINDOW_H
