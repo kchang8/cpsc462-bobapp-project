@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>custOrder</class>
+ <widget class="QDialog" name="custOrder">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>80</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>NSimSun</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Sharetea</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>110</y>
+     <width>461</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Lucida Sans Typewriter</family>
+     <pointsize>26</pointsize>
+     <weight>50</weight>
+     <italic>true</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Sharetea: Drink Menu</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>180</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="menuTable">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>220</y>
+     <width>281</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <row>
+    <property name="text">
+     <string> Milk Teas</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string/>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string/>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string/>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Brewed Teas</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string/>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string/>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string/>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Creama</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string> </string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string/>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string/>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>Item Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Price</string>
+    </property>
+   </column>
+   <item row="0" column="0">
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item row="0" column="1">
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item row="1" column="0">
+    <property name="text">
+     <string>Classic Milk Tea</string>
+    </property>
+   </item>
+   <item row="1" column="1">
+    <property name="text">
+     <string>3.25</string>
+    </property>
+   </item>
+   <item row="2" column="0">
+    <property name="text">
+     <string>Oolong Milk Tea</string>
+    </property>
+   </item>
+   <item row="2" column="1">
+    <property name="text">
+     <string>3.25</string>
+    </property>
+   </item>
+   <item row="3" column="0">
+    <property name="text">
+     <string>Fresh Milk Tea</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+   </item>
+   <item row="3" column="1">
+    <property name="text">
+     <string>3.75</string>
+    </property>
+   </item>
+   <item row="4" column="0">
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item row="5" column="0">
+    <property name="text">
+     <string>Black Tea</string>
+    </property>
+   </item>
+   <item row="5" column="1">
+    <property name="text">
+     <string>2.75</string>
+    </property>
+   </item>
+   <item row="6" column="0">
+    <property name="text">
+     <string>Green Tea</string>
+    </property>
+   </item>
+   <item row="6" column="1">
+    <property name="text">
+     <string>2.75</string>
+    </property>
+   </item>
+   <item row="7" column="0">
+    <property name="text">
+     <string>Oolong Tea</string>
+    </property>
+   </item>
+   <item row="7" column="1">
+    <property name="text">
+     <string>2.99</string>
+    </property>
+   </item>
+   <item row="9" column="0">
+    <property name="text">
+     <string>Matcha Creama</string>
+    </property>
+   </item>
+   <item row="9" column="1">
+    <property name="text">
+     <string>3.99</string>
+    </property>
+   </item>
+   <item row="10" column="0">
+    <property name="text">
+     <string>Wintermelon</string>
+    </property>
+   </item>
+   <item row="10" column="1">
+    <property name="text">
+     <string>3.99</string>
+    </property>
+   </item>
+   <item row="11" column="0">
+    <property name="text">
+     <string>Mango Creama</string>
+    </property>
+   </item>
+   <item row="11" column="1">
+    <property name="text">
+     <string>3.99</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QTableWidget" name="cartTable">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>220</y>
+     <width>281</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <row>
+    <property name="text">
+     <string> </string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string> </string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>Item Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Price</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Total</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>560</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 157, 167);</string>
+   </property>
+   <property name="text">
+    <string>Add to cart</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>470</y>
+     <width>131</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 128, 151);
+font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Check out</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
