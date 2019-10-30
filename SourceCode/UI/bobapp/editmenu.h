@@ -1,7 +1,7 @@
 #ifndef EDITMENU_H
 #define EDITMENU_H
 
-#include <QWidget>
+#include <QMainWindow>
 #include <fstream>
 #include <QFile>
 #include <QList>
@@ -13,7 +13,7 @@ namespace Ui {
 class editMenu;
 }
 
-class editMenu : public QWidget
+class editMenu : public QMainWindow
 {
     Q_OBJECT
 

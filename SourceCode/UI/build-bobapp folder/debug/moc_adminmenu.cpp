@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_AdminMenu_t {
-    QByteArrayData data[5];
-    char stringdata0[77];
+    QByteArrayData data[6];
+    char stringdata0[104];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -36,11 +36,13 @@ QT_MOC_LITERAL(0, 0, 9), // "AdminMenu"
 QT_MOC_LITERAL(1, 10, 31), // "on_comboBox_currentIndexChanged"
 QT_MOC_LITERAL(2, 42, 0), // ""
 QT_MOC_LITERAL(3, 43, 5), // "index"
-QT_MOC_LITERAL(4, 49, 27) // "on_editInven_button_clicked"
+QT_MOC_LITERAL(4, 49, 27), // "on_editInven_button_clicked"
+QT_MOC_LITERAL(5, 77, 26) // "on_editMenu_button_clicked"
 
     },
     "AdminMenu\0on_comboBox_currentIndexChanged\0"
-    "\0index\0on_editInven_button_clicked"
+    "\0index\0on_editInven_button_clicked\0"
+    "on_editMenu_button_clicked"
 };
 #undef QT_MOC_LITERAL
 
@@ -50,7 +52,7 @@ static const uint qt_meta_data_AdminMenu[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-       2,   14, // methods
+       3,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -58,11 +60,13 @@ static const uint qt_meta_data_AdminMenu[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    1,   24,    2, 0x08 /* Private */,
-       4,    0,   27,    2, 0x08 /* Private */,
+       1,    1,   29,    2, 0x08 /* Private */,
+       4,    0,   32,    2, 0x08 /* Private */,
+       5,    0,   33,    2, 0x08 /* Private */,
 
  // slots: parameters
     QMetaType::Void, QMetaType::Int,    3,
+    QMetaType::Void,
     QMetaType::Void,
 
        0        // eod
@@ -76,6 +80,7 @@ void AdminMenu::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
         switch (_id) {
         case 0: _t->on_comboBox_currentIndexChanged((*reinterpret_cast< int(*)>(_a[1]))); break;
         case 1: _t->on_editInven_button_clicked(); break;
+        case 2: _t->on_editMenu_button_clicked(); break;
         default: ;
         }
     }
@@ -110,13 +115,13 @@ int AdminMenu::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 2)
+        if (_id < 3)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 2;
+        _id -= 3;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 2)
+        if (_id < 3)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 2;
+        _id -= 3;
     }
     return _id;
 }

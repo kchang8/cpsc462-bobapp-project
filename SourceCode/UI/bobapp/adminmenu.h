@@ -3,6 +3,7 @@
 
 #include <QDialog>
 #include "inventorywin.h"
+#include "editmenu.h"
 
 namespace Ui {
 class AdminMenu;
@@ -21,9 +22,12 @@ private slots:
 
     void on_editInven_button_clicked();
 
+    void on_editMenu_button_clicked();
+
 private:
     Ui::AdminMenu *ui;
     InventoryWin *invWin;
+    editMenu *eMenu;
 };
 
 #endif // ADMINMENU_H

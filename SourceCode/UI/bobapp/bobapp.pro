@@ -17,6 +17,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     adminmenu.cpp \
+    editmenu.cpp \
     inventorywin.cpp \
     main.cpp \
     mainwindow.cpp \
@@ -24,12 +25,14 @@ SOURCES += \
 
 HEADERS += \
     adminmenu.h \
+    editmenu.h \
     inventorywin.h \
     mainwindow.h \
     newadminwin.h
 
 FORMS += \
     adminmenu.ui \
+    editmenu.ui \
     inventorywin.ui \
     mainwindow.ui \
     newadminwin.ui
@@ -38,3 +41,5 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+DISTFILES +=

@@ -1,0 +1,11 @@
+release/adminmenu.o
+release/editmenu.o
+release/inventorywin.o
+release/main.o
+release/mainwindow.o
+release/newadminwin.o
+release/moc_adminmenu.o
+release/moc_editmenu.o
+release/moc_inventorywin.o
+release/moc_mainwindow.o
+release/moc_newadminwin.o

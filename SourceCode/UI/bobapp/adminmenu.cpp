@@ -34,3 +34,9 @@ void AdminMenu::on_editInven_button_clicked()
     invWin->show();
 
 }
+
+void AdminMenu::on_editMenu_button_clicked()
+{
+    eMenu = new editMenu(this);
+    eMenu->show();
+}

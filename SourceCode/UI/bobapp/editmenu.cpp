@@ -4,7 +4,7 @@
 #include <QDebug>
 
 editMenu::editMenu(QWidget *parent) :
-    QWidget(parent),
+    QMainWindow(parent),
     ui(new Ui::editMenu)
 {
     ui->setupUi(this);
@@ -14,6 +14,13 @@ editMenu::editMenu(QWidget *parent) :
     selectedRow = -1;
 
     readFile("Menu.csv");
+
+    //sets up the background to an image
+    QPixmap bkgrnd("/Users/KailieC/Pictures/Saved Pictures/bobappBackground.png");
+    bkgrnd = bkgrnd.scaled(this->size(), Qt::IgnoreAspectRatio);
+    QPalette palette;
+    palette.setBrush(QPalette::Background, bkgrnd);
+    this->setPalette(palette);
 
 }
 
