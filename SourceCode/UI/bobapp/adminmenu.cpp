@@ -22,7 +22,7 @@ AdminMenu::~AdminMenu()
 
 void AdminMenu::on_comboBox_currentIndexChanged(int index)
 {
-    if(index == 2)
+    if(index == 1)
     {
         hide();
     }
