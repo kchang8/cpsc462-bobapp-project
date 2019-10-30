@@ -2,7 +2,6 @@
 #define CUSTPAYMENTWIN_H
 
 #include <QDialog>
-#include "finalorderwin.h"
 
 namespace Ui {
 class custPaymentWin;
@@ -21,7 +20,7 @@ private slots:
 
 private:
     Ui::custPaymentWin *ui;
-    finalOrderwin *finalOrder;
 };
 
 #endif // CUSTPAYMENTWIN_H
+
