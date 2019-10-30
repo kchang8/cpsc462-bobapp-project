@@ -22,7 +22,6 @@ custPaymentWin::~custPaymentWin()
 void custPaymentWin::on_pushButton_clicked()
 {
     hide();
-    finalOrder = new finalOrderwin(this);
-    finalOrder->show();
 
 }
+
