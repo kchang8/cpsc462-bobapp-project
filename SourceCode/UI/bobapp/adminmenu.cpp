@@ -24,7 +24,7 @@ void AdminMenu::on_comboBox_currentIndexChanged(int index)
 {
     if(index == 1)
     {
-        hide();
+        QApplication::exit();
     }
 }
 

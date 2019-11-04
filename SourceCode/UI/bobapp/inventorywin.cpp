@@ -17,7 +17,7 @@ InventoryWin::InventoryWin(QWidget *parent) :
     readFile("Inventory.csv");
 
     //sets up the background to an image
-    QPixmap bkgrnd("/Users/KailieC/Pictures/Saved Pictures/bobappBackground.png");
+    QPixmap bkgrnd("/Users/KailieC/Pictures/Saved Pictures/bobappBackground.png"); //must change the path to use image
     bkgrnd = bkgrnd.scaled(this->size(), Qt::IgnoreAspectRatio);
     QPalette palette;
     palette.setBrush(QPalette::Background, bkgrnd);
@@ -29,7 +29,7 @@ InventoryWin::~InventoryWin()
     delete ui;
 }
 
-void InventoryWin::on_pushButton_clicked()
+void InventoryWin::on_pushButton_clicked() //when the add button is clicked
 {
     QString invItem = ui->invInput->text().trimmed();
 
@@ -51,7 +51,7 @@ void InventoryWin::on_invData_cellClicked(int row, int column)
     selectedRow = row;
 }
 
-void InventoryWin::on_deleteButton_clicked()
+void InventoryWin::on_deleteButton_clicked() //when the delete button is clicked
 {
     if(selectedRow == -1)
     {
@@ -61,9 +61,9 @@ void InventoryWin::on_deleteButton_clicked()
     selectedRow = -1;
 }
 
-void InventoryWin::closeEvent(QCloseEvent *event)
+void InventoryWin::closeEvent(QCloseEvent *event) //when the 'x' button on the corner is clicked
 {
-    writeFile("Inventory.csv");
+    writeFile("Inventory.csv"); //writes out to a file called Inventory.csv
 }
 
 void InventoryWin::readFile(QString filename)

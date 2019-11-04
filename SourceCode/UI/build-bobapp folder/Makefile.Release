@@ -243,14 +243,13 @@ release/moc_adminmenu.cpp: ../bobapp/adminmenu.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtGui/QList \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtCore/QStringList \
 		../bobapp/editmenu.h \
-		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/QWidget \
 		release/moc_predefs.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/bin/moc.exe
 	D:\KCqt5.13\5.13.1\mingw73_64\bin\moc.exe $(DEFINES) --include C:/Users/KailieC/Documents/build-bobapp-Desktop_Qt_5_13_1_MinGW_64_bit-Debug/release/moc_predefs.h -ID:/KCqt5.13/5.13.1/mingw73_64/mkspecs/win32-g++ -IC:/Users/KailieC/Documents/bobapp -ID:/KCqt5.13/5.13.1/mingw73_64/include -ID:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets -ID:/KCqt5.13/5.13.1/mingw73_64/include/QtGui -ID:/KCqt5.13/5.13.1/mingw73_64/include/QtANGLE -ID:/KCqt5.13/5.13.1/mingw73_64/include/QtCore -I. -ID:/KCqt5.13/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++ -ID:/KCqt5.13/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32 -ID:/KCqt5.13/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward -ID:/KCqt5.13/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include -ID:/KCqt5.13/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed -ID:/KCqt5.13/Tools/mingw730_64/x86_64-w64-mingw32/include ..\bobapp\adminmenu.h -o release\moc_adminmenu.cpp
 
 release/moc_editmenu.cpp: ../bobapp/editmenu.h \
-		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/QWidget \
-		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qwidget.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/QMainWindow \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qmainwindow.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qtwidgetsglobal.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtGui/qtguiglobal.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtCore/qglobal.h \
@@ -276,6 +275,7 @@ release/moc_editmenu.cpp: ../bobapp/editmenu.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtCore/qversiontagging.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtGui/qtgui-config.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qtwidgets-config.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qwidget.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtGui/qwindowdefs.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtCore/qobjectdefs.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtCore/qnamespace.h \
@@ -352,13 +352,11 @@ release/moc_editmenu.cpp: ../bobapp/editmenu.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtCore/qfiledevice.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtGui/qvector2d.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtGui/qtouchdevice.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qtabwidget.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtGui/qicon.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtCore/QFile \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtGui/QList \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtCore/QStringList \
-		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/QMainWindow \
-		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qmainwindow.h \
-		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qtabwidget.h \
-		D:/KCqt5.13/5.13.1/mingw73_64/include/QtGui/qicon.h \
 		release/moc_predefs.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/bin/moc.exe
 	D:\KCqt5.13\5.13.1\mingw73_64\bin\moc.exe $(DEFINES) --include C:/Users/KailieC/Documents/build-bobapp-Desktop_Qt_5_13_1_MinGW_64_bit-Debug/release/moc_predefs.h -ID:/KCqt5.13/5.13.1/mingw73_64/mkspecs/win32-g++ -IC:/Users/KailieC/Documents/bobapp -ID:/KCqt5.13/5.13.1/mingw73_64/include -ID:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets -ID:/KCqt5.13/5.13.1/mingw73_64/include/QtGui -ID:/KCqt5.13/5.13.1/mingw73_64/include/QtANGLE -ID:/KCqt5.13/5.13.1/mingw73_64/include/QtCore -I. -ID:/KCqt5.13/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++ -ID:/KCqt5.13/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32 -ID:/KCqt5.13/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward -ID:/KCqt5.13/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include -ID:/KCqt5.13/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed -ID:/KCqt5.13/Tools/mingw730_64/x86_64-w64-mingw32/include ..\bobapp\editmenu.h -o release\moc_editmenu.cpp
@@ -592,7 +590,6 @@ release/moc_mainwindow.cpp: ../bobapp/mainwindow.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtGui/QList \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtCore/QStringList \
 		../bobapp/editmenu.h \
-		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/QWidget \
 		../bobapp/newadminwin.h \
 		release/moc_predefs.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/bin/moc.exe
@@ -862,7 +859,6 @@ release/adminmenu.o: ../bobapp/adminmenu.cpp ../bobapp/adminmenu.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtGui/QList \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtCore/QStringList \
 		../bobapp/editmenu.h \
-		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/QWidget \
 		ui_adminmenu.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtCore/QVariant \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/QApplication \
@@ -894,8 +890,8 @@ release/adminmenu.o: ../bobapp/adminmenu.cpp ../bobapp/adminmenu.h \
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\adminmenu.o ..\bobapp\adminmenu.cpp
 
 release/editmenu.o: ../bobapp/editmenu.cpp ../bobapp/editmenu.h \
-		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/QWidget \
-		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qwidget.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/QMainWindow \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qmainwindow.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qtwidgetsglobal.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtGui/qtguiglobal.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtCore/qglobal.h \
@@ -921,6 +917,7 @@ release/editmenu.o: ../bobapp/editmenu.cpp ../bobapp/editmenu.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtCore/qversiontagging.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtGui/qtgui-config.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qtwidgets-config.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qwidget.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtGui/qwindowdefs.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtCore/qobjectdefs.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtCore/qnamespace.h \
@@ -997,14 +994,57 @@ release/editmenu.o: ../bobapp/editmenu.cpp ../bobapp/editmenu.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtCore/qfiledevice.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtGui/qvector2d.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtGui/qtouchdevice.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qtabwidget.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtGui/qicon.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtCore/QFile \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtGui/QList \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtCore/QStringList \
-		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/QMainWindow \
-		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qmainwindow.h \
-		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qtabwidget.h \
-		D:/KCqt5.13/5.13.1/mingw73_64/include/QtGui/qicon.h \
 		ui_editmenu.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtCore/QVariant \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/QApplication \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qapplication.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtCore/qcoreapplication.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtCore/qeventloop.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qdesktopwidget.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtGui/qguiapplication.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtGui/qinputmethod.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/QDoubleSpinBox \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qspinbox.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qabstractspinbox.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtGui/qvalidator.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtCore/qregularexpression.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/QHBoxLayout \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qboxlayout.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qlayout.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qlayoutitem.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qgridlayout.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/QHeaderView \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qheaderview.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qabstractitemview.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qabstractscrollarea.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qframe.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtCore/qabstractitemmodel.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtCore/qitemselectionmodel.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qabstractitemdelegate.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qstyleoption.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qslider.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qabstractslider.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qstyle.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qtabbar.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qrubberband.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/QLineEdit \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qlineedit.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtGui/qtextcursor.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtGui/qtextformat.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtGui/qpen.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtGui/qtextoption.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/QPushButton \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qpushbutton.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qabstractbutton.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/QTableWidget \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qtablewidget.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qtableview.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/QWidget \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtCore/QDebug
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\editmenu.o ..\bobapp\editmenu.cpp
 
@@ -1294,7 +1334,6 @@ release/main.o: ../bobapp/main.cpp ../bobapp/mainwindow.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtGui/QList \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtCore/QStringList \
 		../bobapp/editmenu.h \
-		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/QWidget \
 		../bobapp/newadminwin.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/QApplication \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qapplication.h \
@@ -1420,7 +1459,6 @@ release/mainwindow.o: ../bobapp/mainwindow.cpp ../bobapp/mainwindow.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtGui/QList \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtCore/QStringList \
 		../bobapp/editmenu.h \
-		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/QWidget \
 		../bobapp/newadminwin.h \
 		ui_mainwindow.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtCore/QVariant \
@@ -1453,7 +1491,8 @@ release/mainwindow.o: ../bobapp/mainwindow.cpp ../bobapp/mainwindow.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qactiongroup.h \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/QPushButton \
 		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/QStatusBar \
-		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qstatusbar.h
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/qstatusbar.h \
+		D:/KCqt5.13/5.13.1/mingw73_64/include/QtWidgets/QWidget
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\mainwindow.o ..\bobapp\mainwindow.cpp
 
 release/newadminwin.o: ../bobapp/newadminwin.cpp ../bobapp/newadminwin.h \

@@ -78,11 +78,11 @@
     <property name="checkable">
      <bool>false</bool>
     </property>
-    <widget class="QLabel" name="label_2">
+    <widget class="QLabel" name="storeID_label">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>40</y>
+       <y>30</y>
        <width>221</width>
        <height>31</height>
       </rect>
@@ -90,7 +90,7 @@
      <property name="font">
       <font>
        <family>Century Gothic</family>
-       <pointsize>16</pointsize>
+       <pointsize>14</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -99,11 +99,11 @@
       <string>Store ID</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit">
+    <widget class="QLineEdit" name="storeID_lineEdit">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>80</y>
+       <y>60</y>
        <width>391</width>
        <height>31</height>
       </rect>
@@ -115,11 +115,11 @@
       </font>
      </property>
     </widget>
-    <widget class="QLabel" name="label_3">
+    <widget class="QLabel" name="adminID_label">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>130</y>
+       <y>100</y>
        <width>221</width>
        <height>31</height>
       </rect>
@@ -127,7 +127,7 @@
      <property name="font">
       <font>
        <family>Century Gothic</family>
-       <pointsize>16</pointsize>
+       <pointsize>14</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -136,11 +136,11 @@
       <string>Admin ID</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_2">
+    <widget class="QLineEdit" name="adminID_lineEdit">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>170</y>
+       <y>130</y>
        <width>391</width>
        <height>31</height>
       </rect>
@@ -156,7 +156,7 @@
      <property name="geometry">
       <rect>
        <x>300</x>
-       <y>220</y>
+       <y>240</y>
        <width>101</width>
        <height>31</height>
       </rect>
@@ -171,6 +171,46 @@
      </property>
      <property name="text">
       <string>Login</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="adminPW_label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>170</y>
+       <width>221</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Century Gothic</family>
+       <pointsize>14</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Password</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="adminPW_lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>200</y>
+       <width>391</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
      </property>
     </widget>
    </widget>
