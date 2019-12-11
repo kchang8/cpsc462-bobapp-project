@@ -1,5 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include <QMessageBox>
+#include <fstream>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -23,16 +25,38 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_adminLogButton_clicked()
 {
-   //**might add verification of inputs later**
 
-   hide(); //hides first window when button is clicked
-   adminMenu = new AdminMenu(this); //constructs the admin menu window
-   adminMenu->show(); //shows the  window
+   //might add verification of inputs later
+   QString storeID, adminID, password;
+   storeID = ui->storeID_lineEdit->text();
+   adminID = ui->adminID_lineEdit->text();
+   password = ui->adminPW_lineEdit->text();
+
+   if(storeID.isEmpty())
+   {
+       QMessageBox::warning(this, "Login Error", "Please enter a store ID");
+   }
+   else if(adminID.isEmpty())
+   {
+       QMessageBox::warning(this, "Login Error", "Please enter an admin ID");
+   }
+   else if(password.isEmpty())
+   {
+       QMessageBox::warning(this, "Login Error", "Incorrect password, try again");
+   }
+   else
+   {
+       hide(); //hides first window when button is clicked
+       adminMenu = new AdminMenu(this); //constructs the admin menu window
+       adminMenu->show(); //shows the  window
+   }
+
+
 }
 
+//this function is for allowing the users to create a new customer account
 void MainWindow::on_commandLinkButton_2_clicked()
 {
-    hide(); //hides first window when button is clicked
     newAdmin = new NewAdminWin(this); //constructs the new admin window
     newAdmin->show(); //shows the window
 }

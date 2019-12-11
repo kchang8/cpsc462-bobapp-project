@@ -37,9 +37,9 @@
     <property name="geometry">
      <rect>
       <x>90</x>
-      <y>140</y>
+      <y>130</y>
       <width>411</width>
-      <height>401</height>
+      <height>451</height>
      </rect>
     </property>
     <property name="font">
@@ -74,7 +74,7 @@
       <string>Admin Name</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit">
+    <widget class="QLineEdit" name="adminName_lineEdit">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -112,7 +112,7 @@
       <string>Admin Email</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_2">
+    <widget class="QLineEdit" name="adminEmail_lineEdit">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -150,7 +150,7 @@
       <string>Store Name</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_3">
+    <widget class="QLineEdit" name="storeName_lineEdit">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -171,7 +171,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>280</y>
+       <y>270</y>
        <width>181</width>
        <height>21</height>
       </rect>
@@ -188,11 +188,11 @@
       <string>Store Address</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_4">
+    <widget class="QLineEdit" name="storeAdr_lineEdit">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>310</y>
+       <y>300</y>
        <width>391</width>
        <height>31</height>
       </rect>
@@ -205,11 +205,11 @@
       </font>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton">
+    <widget class="QPushButton" name="AccountFactoryButton">
      <property name="geometry">
       <rect>
        <x>270</x>
-       <y>350</y>
+       <y>410</y>
        <width>131</width>
        <height>31</height>
       </rect>
@@ -224,6 +224,44 @@
      </property>
      <property name="text">
       <string>Sign Up</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>340</y>
+       <width>181</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Century Gothic</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Password</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="newPass_lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>370</y>
+       <width>391</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
      </property>
     </widget>
    </widget>
